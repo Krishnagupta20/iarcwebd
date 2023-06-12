@@ -19,9 +19,6 @@ class PublicViewSet(generics.ListCreateAPIView):
 class PublicView(generics.RetrieveUpdateDestroyAPIView):
     serializer_class=PublicSerializer
     queryset=Public.objects.all()
-    
-
-
 
 
 class NameList(generics.ListCreateAPIView):
